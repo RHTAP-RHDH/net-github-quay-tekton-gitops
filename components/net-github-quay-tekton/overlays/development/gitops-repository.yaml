@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: net-github-quay-tekton-gitops-repository
+spec:
+  url: https://github.com/RHTAP-RHDH/net-github-quay-tekton-gitops
